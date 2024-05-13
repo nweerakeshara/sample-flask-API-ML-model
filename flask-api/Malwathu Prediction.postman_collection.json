@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "d34e79ff-ff4c-4ef2-93d5-d9c48a8fae7f",
+		"name": "Malwathu Prediction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10705780"
+	},
+	"item": [
+		{
+			"name": "Get water level prediction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"murrunkan\": 50,\r\n    \"pavattakulam\": 0,\r\n    \"nachchiduva\": 10,\r\n    \"vavniya\": 10,\r\n    \"mannr\": 70,\r\n    \"apura\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "52.206.147.8/predict",
+					"host": [
+						"52",
+						"206",
+						"147",
+						"8"
+					],
+					"path": [
+						"predict"
+					],
+					"query": [
+						{
+							"key": "murrunkan",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "pavattakulam",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "nachchiduva",
+							"value": "12",
+							"disabled": true
+						},
+						{
+							"key": "vavniya",
+							"value": "12",
+							"disabled": true
+						},
+						{
+							"key": "mannr",
+							"value": "11",
+							"disabled": true
+						},
+						{
+							"key": "apura",
+							"value": "2",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
